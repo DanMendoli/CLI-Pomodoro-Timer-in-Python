@@ -43,8 +43,15 @@ choose = int(input('''
 [3] Pausa longa
  '''))
 if choose == 1:
-    pomo_sec = 59
     pomo_min = 24
+    pomoTimer()
+
+if choose == 2:
+    pomo_min = 4
+    pomoTimer()
+
+if choose == 3:
+    pomo_min = 29
     pomoTimer()
 
 main()
