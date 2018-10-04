@@ -1,0 +1,8 @@
+prefix=/home/dan/Documentos/Scripts Python/Pomodoro Timer/venv
+
+Name: Pycairo
+Description: Python 3 bindings for cairo
+Version: 1.17.1
+Requires: cairo
+Cflags: -I${prefix}/include/pycairo
+Libs:
