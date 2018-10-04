@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8d831bd-154b-4f23-ad9a-0615f94533fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Pomodoro Timer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pomodoro Timer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pomodoro_timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/pomodoro_timer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,7 +14,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Pomodoro_Timer$testes.coverage" NAME="testes Coverage Results" MODIFIED="1538651661975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Pomodoro_Timer$main.coverage" NAME="main Coverage Results" MODIFIED="1538659194617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pomodoro_Timer$main.coverage" NAME="main Coverage Results" MODIFIED="1538687029760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pomodoro_Timer$teste.coverage" NAME="teste Coverage Results" MODIFIED="1538684258946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -32,37 +35,41 @@
     <session id="2130012292">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="py" value="10" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="8" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="27" />
-          <entry key="Python" value="2950" />
+          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="Python" value="4348" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="27" />
-          <entry key="py" value="2950" />
+          <entry key="py" value="4348" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
     </session>
@@ -72,13 +79,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pomodoro_timer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="49" column="6" lean-forward="true" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+            <state relative-caret-position="17">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1538659212220" expanded="true" signature="115:120" ph="..." />
-                <marker date="1538659212220" expanded="true" signature="568:2005" ph="..." />
-                <marker date="1538659212220" expanded="true" signature="1019:2005" ph="..." />
+                <marker date="1538687042444" expanded="true" signature="115:120" ph="..." />
+                <marker date="1538687042444" expanded="true" signature="1029:2464" ph="..." />
+                <marker date="1538687042444" expanded="true" signature="1480:2464" ph="..." />
               </folding>
             </state>
           </provider>
@@ -101,6 +107,9 @@
       <list>
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/testes.py" />
+        <option value="$PROJECT_DIR$/main_menu.py" />
+        <option value="$PROJECT_DIR$/pomo_count.txt" />
+        <option value="$PROJECT_DIR$/teste.py" />
         <option value="$PROJECT_DIR$/pomodoro_timer.py" />
       </list>
     </option>
@@ -112,9 +121,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="687" />
+    <option name="x" value="618" />
+    <option name="y" value="4" />
     <option name="width" value="679" />
-    <option name="height" value="732" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -178,6 +188,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pomodoro Timer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="testes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pomodoro Timer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,10 +235,12 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.testes" />
+      <item itemvalue="Python.teste" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.teste" />
         <item itemvalue="Python.testes" />
       </list>
     </recent_temporary>
@@ -225,15 +259,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1374" height="732" extended-state="6" />
+    <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09090909" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.093939394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25870648" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26036483" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4013267" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -265,23 +299,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pomodoro_timer.py">
+    <entry file="file://$PROJECT_DIR$/testes.py" />
+    <entry file="file://$PROJECT_DIR$/main_menu.py" />
+    <entry file="file://$PROJECT_DIR$/pomo_count.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="49" column="6" lean-forward="true" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1538659212220" expanded="true" signature="115:120" ph="..." />
-            <marker date="1538659212220" expanded="true" signature="568:2005" ph="..." />
-            <marker date="1538659212220" expanded="true" signature="1019:2005" ph="..." />
-          </folding>
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testes.py">
+    <entry file="file://$PROJECT_DIR$/teste.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="326">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomodoro_timer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding>
+            <marker date="1538687042444" expanded="true" signature="115:120" ph="..." />
+            <marker date="1538687042444" expanded="true" signature="1029:2464" ph="..." />
+            <marker date="1538687042444" expanded="true" signature="1480:2464" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

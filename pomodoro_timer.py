@@ -11,6 +11,7 @@ pomo_count = 0
 def pomoTimer():
     global pomo_sec
     global pomo_min
+    global pomo_count
 
     for pomo_min in range(24, -1, -1):
         for pomo_sec in range(59, -1, -1):
@@ -21,7 +22,23 @@ def pomoTimer():
             else:
                 print("{}:{}".format(pomo_min, pomo_sec))
                 time.sleep(1)
+    print("Fim do pomodoro!")
     playsound("analog-watch-alarm_daniel-simion.wav")
+    pomo_count = pomo_count + 1
+
+    if pomo_count == 4:
+        pomo_count = 0
+        os.system("clear")
+        four_pomo = str(input('''Você já realizou quatro pomodoros. Recomenda-se uma pausa longa, de 15 ou 30 minutos.
+Deseja fazer uma pausa longa?
+[s] - sim
+[n] - não
+ '''))
+        if four_pomo in "sS":
+            longPause()
+        if four_pomo in "nN":
+            main()
+    os.system("clear")
 
 
 def shortPause():
@@ -82,29 +99,27 @@ def main():
     os.system("clear")
 
 
-option = int(input('''
+    option = int(input('''
 -- Escolha uma opção --
 [1] Pomodoro
 [2] Pausa curta
 [3] Pausa longa
+[4] Sair
  '''))
-if option == 1:
-    if pomo_count == 4:
-        pomo_count = 0
-        '''Você já realizou quatro pomodoros. Recomenda-se uma pausa longa, de 15 ou 30 minutos.
-        Deseja fazer uma pausa longa?
-        [s] - sim
-        [n] - não'''
-    else:
+    if option == 1:
         pomoTimer()
-        pomo_count = pomo_count + 1
+        main()
 
+    if option == 2:
+        shortPause()
+        main()
 
-if option == 2:
-    shortPause()
+    if option == 3:
+        longPause()
+        main()
 
-if option == 3:
-    longPause()
+    if option == 4:
+        exit()
 
 
 main()
