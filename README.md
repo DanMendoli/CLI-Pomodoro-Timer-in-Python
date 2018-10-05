@@ -6,7 +6,7 @@ Usage:
     On Linux:
         
         In terminal, open the directory containing the "pomodoro_timer.py" file 
-        and activate the virtual environment by typing the command 
+        and activate the virtual environment by typing the command:
             
             "source venv/bin/activate" 
         
