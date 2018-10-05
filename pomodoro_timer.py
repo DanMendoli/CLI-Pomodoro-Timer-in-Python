@@ -22,23 +22,24 @@ def pomoTimer():
             else:
                 print("{}:{}".format(pomo_min, pomo_sec))
                 time.sleep(1)
-    print("Fim do pomodoro!")
+    print("Fim do pomodoro! | Pomodoro ends!")
     playsound("analog-watch-alarm_daniel-simion.wav")
     pomo_count = pomo_count + 1
 
     if pomo_count == 4:
         pomo_count = 0
         os.system("clear")
-        four_pomo = str(input('''Você já realizou quatro pomodoros. Recomenda-se uma pausa longa, de 15 ou 30 minutos.
-Deseja fazer uma pausa longa?
-[s] - sim
-[n] - não
+        four_pomo = str(input('''Você já realizou 4 pomodoros. Recomenda-se uma pausa longa, de 15 ou 30 minutos.
+Iniciar uma pausa longa?
+You already realized 4 pomodoros. It's recommended a long break, of 15 or 30 minutes.
+Start a long break?
+[s|y] - sim|yes
+[n] - não|no
  '''))
-        if four_pomo in "sS":
+        if four_pomo in "sSyY":
             longPause()
         if four_pomo in "nN":
             main()
-    os.system("clear")
 
 
 def shortPause():
@@ -54,6 +55,7 @@ def shortPause():
             else:
                 print("{}:{}".format(pomo_min, pomo_sec))
                 time.sleep(1)
+    print("Fim da pausa curta! | Short pause ends!")
     playsound("analog-watch-alarm_daniel-simion.wav")
 
 
@@ -62,8 +64,8 @@ def longPause():
     global pomo_min
 
     long_pause_option = int(input('''
-[1] 15 minutos
-[2] 30 minutos
+[1] 15 minutos | minutes
+[2] 30 minutos | minutes
  '''))
 
     if long_pause_option == 1:
@@ -87,7 +89,7 @@ def longPause():
                 else:
                     print("{}:{}".format(pomo_min, pomo_sec))
                     time.sleep(1)
-
+    print("Fim da pausa longa! | Longe break ends!" )
     playsound("analog-watch-alarm_daniel-simion.wav")
 
 
@@ -101,10 +103,11 @@ def main():
 
     option = int(input('''
 -- Escolha uma opção --
+-- Pick an option --
 [1] Pomodoro
-[2] Pausa curta
-[3] Pausa longa
-[4] Sair
+[2] Pausa curta | Short break
+[3] Pausa longa | Long break
+[4] Sair | Exit
  '''))
     if option == 1:
         pomoTimer()
